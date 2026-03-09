@@ -1,10 +1,12 @@
-<h1 align="center">
-  <img src="extension/icons/icon128.png" width="48" style="vertical-align: middle; margin-right: 10px;">
-  AI Summarizer Chrome Extension
+<h1 align="center" style="display:flex; align-items:center; justify-content:center; gap:12px;">
+  <img src="screenshots/logo.png" width="56">
+  <span>AI Summarizer Chrome Extension</span>
 </h1>
 
-![License](https://img.shields.io/github/license/TomSibu/ai-text-summarizer-extension)
-![Visitor Count](https://komarev.com/ghpvc/?username=TomSibu&repo=ai-text-summarizer-extension&color=blue)
+<p align="center">
+  <img src="https://img.shields.io/github/license/TomSibu/ai-text-summarizer-extension">
+  <img src="https://komarev.com/ghpvc/?username=TomSibu&repo=ai-text-summarizer-extension&color=blue">
+</p>
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue)
