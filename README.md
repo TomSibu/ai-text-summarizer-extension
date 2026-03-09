@@ -1,5 +1,5 @@
 <h1 align="center" style="display:flex; align-items:center; justify-content:center; gap:12px;">
-  <img src="extension/icons/icon128.png" width="56">
+  <img src="extension/icons/icon128.png" width="48">
   <span>AI Summarizer Chrome Extension</span>
 </h1>
 
