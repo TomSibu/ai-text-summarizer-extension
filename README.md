@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="extension/icons/icon128.png" width="120">
+  <img src="extension/icons/icon128.png" width="120"> <h1> AI Summarizer Chrome Extension</h1>
 </p>
-
-# AI Summarizer Chrome Extension
 
 ![License](https://img.shields.io/github/license/TomSibu/ai-text-summarizer-extension)
 ![Visitor Count](https://komarev.com/ghpvc/?username=TomSibu&repo=ai-text-summarizer-extension&color=blue)
@@ -20,9 +18,10 @@ The extension communicates with a local Node.js server that exposes a `/summariz
 
 ## Screenshots
 
-![Popup](screenshots/popup.png)
-
-![Settings Panel](screenshots/settings.png)
+<p align="center">
+  <img src="screenshots/popup.png" width="300">
+  <img src="screenshots/settings.png" width="300">
+</p>
 
 ## Backend Setup (Server)
 
