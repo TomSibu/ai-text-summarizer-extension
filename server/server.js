@@ -7,7 +7,9 @@ dotenv.config()
 
 const app = express()
 
-app.use(cors())
+app.use(cors({
+origin: "*"
+}))
 app.use(express.json())
 
 app.post("/summarize", async (req, res) => {
@@ -17,7 +19,7 @@ const text = req.body.text
 try {
 
 const response = await fetch(
-`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${process.env.GEMINI_API_KEY}`,
+`https://generativelanguage.googleapis.com/v1beta/models/${process.env.GEMINI_AI_MODEL}:generateContent?key=${process.env.GEMINI_API_KEY}`,
 {
 method:"POST",
 headers:{

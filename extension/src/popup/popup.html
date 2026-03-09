@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AI Summarizer</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+<div class="app">
+<div class="mainContent">
+<div class="header">
+
+<div class="titleSection">
+
+<img src="../../icons/icon48.png" class="logo">
+
+<div class="title">
+<h2>AI Summarizer</h2>
+<p>Quick summaries powered by AI</p>
+</div>
+
+</div>
+
+<button id="settingsBtn" class="settingsBtn">
+⚙
+</button>
+
+</div>
+
+<div class="chat">
+
+<div class="userBox">
+<textarea
+id="inputText"
+placeholder="Paste text to summarize..."
+></textarea>
+
+</div>
+
+<button id="summarizeBtn">
+Generate Summary
+</button>
+
+<div class="aiBox">
+
+<p class="aiLabel">AI Summary</p>
+
+<div id="output">
+Your summary will appear here.
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="settingsPanel" id="settingsPanel">
+
+<div class="settingsHeader">
+
+<button id="backBtn" class="backBtn">
+
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+<path d="M15 18l-6-6 6-6"/>
+
+</svg>
+
+</button>
+
+<h3>Settings</h3>
+
+</div>
+
+<div class="settingRow">
+
+<span>Auto summarize selected text</span>
+
+<label class="switch">
+<input type="checkbox" id="autoToggle">
+<span class="slider"></span>
+</label>
+
+</div>
+
+</div>
+</div>
+
+
+<script type="module" src="popup.js"></script>
+
+</body>
+</html>
